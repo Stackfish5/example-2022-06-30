@@ -14,4 +14,3 @@ x <- all_tables[[3]] |>
   mutate(year = ifelse(year == 20206, 2020, year)) 
 
 write_rds(x, file = "data.rds")
-
